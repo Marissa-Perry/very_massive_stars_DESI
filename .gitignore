@@ -8,3 +8,5 @@ __pycache__/
 
 # saved plots (unnecessary if they will be generated in the notebook as well)
 plots/
+# saved dataframes from querying
+data/
