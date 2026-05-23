@@ -5,3 +5,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# saved plots (unnecessary if they will be generated in the notebook as well)
+plots/
