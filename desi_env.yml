@@ -24,6 +24,7 @@ dependencies:
   - requests
   - numba
   - pytest
+  - tqdm
 
   - pip
 
