@@ -1,4 +1,4 @@
-## nearby galaxies hosting very massive stars
+## Overview
 
 This project was developed during an REU at UW-Madison in Summer 2026 under the mentorship of Prof. Christy Tremonti and graduate student Marissa Perry. The goal of this project is to identify Very Massive Star (VMS) candidates in nearby galaxies using data from DESI DR1.
 
