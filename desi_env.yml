@@ -1,0 +1,33 @@
+name: desi_env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy=1.26.3
+  - pandas=2.1.4
+  - scipy=1.11.4
+  - matplotlib=3.8.4
+  - astropy=5.3.4
+
+  - astro-datalab=2.24.0
+
+  - jupyterlab
+  - ipython
+  - ipykernel
+
+  - fitsio
+  - h5py
+  - healpy
+  - requests
+  - numba
+  - pytest
+
+  - pip
+
+  - pip:
+      - sparclclient==1.3.0
+      - pyjwt==2.13.0
+      - spectres==2.2.2
