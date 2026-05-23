@@ -4,8 +4,10 @@ This project was developed during an REU at UW-Madison in Summer 2026 under the 
 
 ## Structure
 
-- `DESI_VMS_identification.ipynb` - semi-automated code for identifying VMS candidates in DESI
+- `01_query_DESI_for_VMS_candidates.ipynb`
+- `02_inspect_VMS_candidates.ipynb`
 - `plots/` - visualizations (not tracked in git)
+- `data/` - saved dataframes from queries (not tracked in git)
 
 ## Setup
 
