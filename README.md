@@ -1,27 +1,36 @@
 ## Overview
 
-This project was developed during an REU at UW-Madison in Summer 2026 under the mentorship of Prof. Christy Tremonti and graduate student Marissa Perry. The goal of this project is to identify Very Massive Star (VMS) candidates in nearby galaxies using data from DESI DR1.
+This project was developed during an REU at UW-Madison in Summer 2026 under the mentorship of Prof. Christy Tremonti and graduate student Marissa Perry. The goal of this project is to identify Very Massive Star (VMS) candidates in nearby galaxies using data from SDSS-IV/eBOSS and DESI DR1.
 
 ## Structure
 
-- `01_query_DESI_for_VMS_candidates.ipynb`
-- `02_inspect_VMS_candidates.ipynb`
-- `plots/` - visualizations (not tracked in git)
-- `data/` - queried dataframes (not tracked in git)
+- `eBOSS_notebooks/`
+        - `01_eBOSS_high_ionization_galaxies.ipynb`
+        - `02_eBOSS_initial_VMS_candidates.ipynb`
+        - `03_eBOSS_final_VMS_candidates.ipynb`
+- `DESI_notebooks/`
+        - `01_query_DESI_VMS_candidates.ipynb`
+        - `02_inspect_DESI_VMS_candidates.ipynb`
+- `data/` 
+        - `eboss_dr17_summary_odtrim8_v1.fit` (not tracked in git)
+- `plots/` (not tracked in git)
+- `subsamples/` (not tracked in git)
 
 ## Setup
 
 A conda environment for this project can be set up by running:
 ```bash
-conda env create -f desi_env.yml
+conda env create -f VMS_env.yml
 ```
 
 Activate this environment with
 ```bash
-conda activate desi_env
+conda activate VMS_env
 ```
 
 ## Acknowledgements
+
+This research used spectral measurements of eBOSS targets obtained by [Matthews Acuña et al. 2025](https://ui.adsabs.harvard.edu/abs/2025arXiv251218076M/abstract).
 
 This project utilizes resources provided by
 
