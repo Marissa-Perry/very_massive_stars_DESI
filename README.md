@@ -5,14 +5,14 @@ This project was developed during an REU at UW-Madison in Summer 2026 under the 
 ## Structure
 
 - `eBOSS_notebooks/`
-        - `01_eBOSS_high_ionization_galaxies.ipynb`
-        - `02_eBOSS_initial_VMS_candidates.ipynb`
-        - `03_eBOSS_final_VMS_candidates.ipynb`
+    - `01_eBOSS_high_ionization_galaxies.ipynb`
+    - `02_eBOSS_initial_VMS_candidates.ipynb`
+    - `03_eBOSS_final_VMS_candidates.ipynb`
 - `DESI_notebooks/`
-        - `01_query_DESI_VMS_candidates.ipynb`
-        - `02_inspect_DESI_VMS_candidates.ipynb`
+    - `01_query_DESI_VMS_candidates.ipynb`
+    - `02_inspect_DESI_VMS_candidates.ipynb`
 - `data/` 
-        - `eboss_dr17_summary_odtrim8_v1.fit` (not tracked in git)
+    - `eboss_dr17_summary_odtrim8_v1.fit` (not tracked in git)
 - `plots/` (not tracked in git)
 - `subsamples/` (not tracked in git)
 
