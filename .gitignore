@@ -12,3 +12,11 @@ plots/
 subsamples/
 # eBOSS spectral measurement file is too large to track with GitHub
 data/
+
+# spectra files
+fits_files/
+standard_images/
+
+# catalog files
+*.csv
+*.pkl
